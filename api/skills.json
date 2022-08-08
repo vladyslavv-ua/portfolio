@@ -1,13 +1,12 @@
 [
-    {
-        name:'figma',
-        iconurl:'',
-        stars:3
-    },
-
-    {
-        name:'python',
-        iconur:'',
-        stars:4
-    }
+   {
+      "name":"figma",
+      "iconurl":"",
+      "stars":3
+   },
+   {
+      "name":"python",
+      "iconur":"",
+      "stars":4
+   }
 ]
