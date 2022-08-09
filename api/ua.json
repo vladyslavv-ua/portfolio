@@ -1,0 +1,33 @@
+{
+    "header":{
+        "home":"Дім",
+        "about":"Про мене",
+        "skills":"Навички",
+        "portfolio":"Портфоліо",
+        "contacts":"Контакти"
+    },
+
+    "first":{
+        "name":"Denis Novik",
+        "profession":"UX | UI designer",
+        "age":"years old, Minsk"
+    },
+    "about":{
+        "header":"About me",
+        "first_block":"Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.",
+        "second_block":"I'm studying at courses \"Web and mobile design interfaces\" in IT-Academy.",
+        "third_block":"Ready to implement excellent projects with wonderful people."
+    },
+    "skills":{
+        "header":"Skills",
+        "description":"I work in such programs as"
+    },
+    "portfolio":{
+        "header":"Portfolio"
+    },
+    "contacts":{
+        "header":"Contacts",
+        "description":"Want to know more or just chat? You are welcome!",
+        "message":"Send message"
+    }
+}
