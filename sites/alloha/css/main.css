@@ -1,0 +1,308 @@
+/* font-family: 'Poppins', sans-serif; */
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  background: #E5E5E5;
+  color: #4B321D;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class],
+li {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+a{
+    text-decoration: none;
+    color: #4b321d;
+}
+
+
+
+.container {
+    width: 91.66%;
+    margin: 0 auto;
+}
+.header {
+    margin-top: 43px;
+    width: 63.62%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 110px;
+    height: 41px;
+}
+.nav__links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__links__link {
+}
+.nav__links--link {
+    color: #4B321D;
+}
+
+.about {
+    margin-top: 134px;
+    margin-bottom: 136px;
+    width: 100%;
+    text-align-last: left;
+
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+
+/* or 125% */
+
+
+}
+.first__photo {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 84px;
+}
+
+
+.my_servises {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    margin-bottom: 56px;
+}
+.portfolio {
+
+    /* margin-top: 56px; */
+
+}
+
+.customized_link{
+    display: inline-block;
+    font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+padding: 11px;
+border: 2px solid #4B321D;
+transition: 1.5s;
+}
+
+.customized_link:hover{
+    background: #4B321D;
+    color: #fff;
+}
+
+.grid{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.grid__wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 140px;
+    grid-row-gap: 90px;
+}
+.grid__content {
+}
+.grid__content--header {
+    font-weight: 400;
+font-size: 38px;
+line-height: 44px;
+margin-bottom: 56px;
+margin-top: 45%;
+}
+.grid__content--link {
+}
+.customized_link {
+}
+
+.response {
+    width: 100%;
+    min-height: 476px;
+    background: #4B321D;
+border-radius: 16px;
+margin-top: 90px;
+margin-bottom: 84px;
+
+padding-left: 60px;
+padding-top: 84px;
+padding-right: 160px;
+padding-bottom: 110px;
+
+}
+.response--header {
+    font-weight: 400;
+font-size: 80px;
+line-height: 100px;
+
+color: #F1F1EB;
+
+}
+.response--author {
+    margin-top: 45px;
+    font-weight: 400;
+font-size: 26px;
+line-height: 36px;
+color: #F1F1EB;
+}
+
+.lets_talk {
+    margin-bottom: 189px;
+}
+.lets_talk--text {
+    font-weight: 400;
+font-size: 80px;
+line-height: 100px;
+margin-bottom: 56px;
+}
+.lets_talk--button {
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__left {
+    
+}
+.footer__left--img {
+    margin-top: 111px;
+    
+}
+.footer__right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.footer__right__coloumn {
+}
+.ul {
+}
+.footer__right__coloumn--link {
+}
+
+@media screen and (max-width: 1200px) {
+    .nav__links{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .nav__links{
+        width: 60%;
+    }
+
+    .response--header, .about, .my_servises, .lets_talk--text{
+        font-size: 60px;
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    .header{
+        width: 100%;
+    }
+
+    .grid__wrap{
+        grid-template-columns: 1fr;
+    }
+
+    .grid__wrap img{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .grid__content--header{
+        margin-top: 100px;
+    }
+
+    #second__row__text{
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    .response--header, .about, .my_servises, .lets_talk--text{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .footer__right{
+        width: 70%;
+    }
+}
