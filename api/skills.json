@@ -1,12 +1,18 @@
 [
    {
-      "name":"figma",
+      "name":"Figma",
       "iconurl":"https://raw.githubusercontent.com/vladyslavv-ua/portfolio/master/img/Figma.png",
-      "stars":3
+      "stars":2
    },
    {
-      "name":"python",
-      "iconurl":"https://raw.githubusercontent.com/vladyslavv-ua/portfolio/master/img/Figma.png",
-      "stars":4
+      "name":"Common python",
+      "iconurl":"https://raw.githubusercontent.com/vladyslavv-ua/portfolio/master/img/python.png",
+      "stars":3
+   },
+
+   {
+      "name":"Vue3",
+      "iconurl":"https://raw.githubusercontent.com/vladyslavv-ua/portfolio/master/img/vue.png",
+      "stars":3
    }
 ]
