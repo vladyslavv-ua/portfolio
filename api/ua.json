@@ -8,26 +8,26 @@
     },
 
     "first":{
-        "name":"Denis Novik",
-        "profession":"UX | UI designer",
-        "age":"years old, Minsk"
+        "name":"Владислав Мирошніченко",
+        "profession":"Програміст",
+        "age":"років"
     },
     "about":{
-        "header":"About me",
-        "first_block":"Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.",
-        "second_block":"I'm studying at courses \"Web and mobile design interfaces\" in IT-Academy.",
-        "third_block":"Ready to implement excellent projects with wonderful people."
+        "header":"Про мене",
+        "first_block":"Привіт, мене звати Владислав – програміст з Черкащини. Я зацікавлений в програмуванні і всьому, що з ним пов'язано.",
+        "second_block":"Я вивчаю безкоштовні курси з YouTube різних авторів і напрямів.",
+        "third_block":"Готовий реалізовувати відмінні проекти з чудовими людьми."
     },
     "skills":{
-        "header":"Skills",
-        "description":"I work in such programs as"
+        "header":"Навички",
+        "description":"Я знаю такі мови програмування, фреймворки й бібліотеки як:"
     },
     "portfolio":{
-        "header":"Portfolio"
+        "header":"Портфоліо"
     },
     "contacts":{
-        "header":"Contacts",
-        "description":"Want to know more or just chat? You are welcome!",
-        "message":"Send message"
+        "header":"Контакти",
+        "description":"Хочеш дізнатись більше або просто поспілкуватись? Ласкаво просимо",
+        "message":"Напишіть мені"
     }
 }
