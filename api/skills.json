@@ -11,6 +11,11 @@
    },
 
    {
+      "name":"HTML",
+      "iconurl":"https://raw.githubusercontent.com/vladyslavv-ua/portfolio/master/img/html.png",
+      "stars":4
+   },
+   {
       "name":"Vue3",
       "iconurl":"https://raw.githubusercontent.com/vladyslavv-ua/portfolio/master/img/vue.png",
       "stars":3
