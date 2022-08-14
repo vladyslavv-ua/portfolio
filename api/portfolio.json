@@ -3,5 +3,11 @@
        "name":"Aloha",
        "link":"sites/aloha",
        "screenshotPath":"https://raw.githubusercontent.com/vladyslavv-ua/portfolio/master/sites/aloha/screenshots/screenshot.png"
+    },
+
+    {
+       "name":"Drop",
+       "link":"sites/drop",
+       "screenshotPath":"sites/drop/screenshots/screenshot.png"
     }
  ]
